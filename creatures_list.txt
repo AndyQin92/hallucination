@@ -1,0 +1,59 @@
+1. The Phoenix
+2. The Unicorn
+3. The Mermaid
+4. The Dragon
+5. The Griffin
+6. The Yeti
+7. The Kelpie
+9. The Basilisk
+10. The Centaur
+11. The Werewolf
+12. The Spinx
+13. The Gremlin
+14. The Hydra
+15. The Hippogriff
+16. The Loch Ness Monster
+17. The Harpy
+18. The Minotaur
+19. The Pegasus
+20. The Chimera
+21. The Jackalope
+22. The Leprechaun
+23. The Banshee
+24. The Amarok
+25. The Cadman Vixen
+27. The Cerberus
+28. The Bunyip
+29. Gnomes
+30. Fairies
+31. The Kirit
+32. The Caladrius
+33. The Chupacabra
+34. Trolls
+35. Ghoul
+36. Imp
+37. Manticore
+38. Pixie
+39. Kappa
+40. Hippogriff
+41. Sea Serpent
+42. Merman
+43. Hippocampus
+44. Erlking
+45. Redcap
+46. Robots
+47. Aliens
+48. Cyborgs
+49. Zombies
+50. Jedi
+51. Frankenstein’s Monster
+52. Werewolf
+53. Clones
+54. Angel
+55. The mummy
+56. The orc
+57. super hero
+58. space ship
+59. death star
+60. ghost
+61. gargoyle

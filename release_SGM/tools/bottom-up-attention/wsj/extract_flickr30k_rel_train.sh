@@ -1,0 +1,12 @@
+nohup python -u ./wsj/extract_features_use_bbox.py \
+--gpu 2 \
+--def models/vg/ResNet-101/faster_rcnn_end2end_final/test_gt.prototxt \
+--cfg experiments/cfgs/faster_rcnn_end2end_resnet.yml \
+--net data/faster_rcnn_models/resnet101_faster_rcnn_final.caffemodel \
+--mode rel \
+--imageSet flickr30k \
+--split train \
+--version  no_v \
+--imgRootDir /home/wangsijin/datasets/flickr30k-images \
+--annFile /home/wangsijin/projects/image_text_matching_using_scene_graph/dataset/Flickr30k/flickr30k_train_image_sg_by_NeuralMotifs_36_25.json \
+--dist_file ./wsj/features/flickr30k_train_image_rel_features_by_BUA_25.h5 > wsj/extract_flickr30k_rel_train.log 2>&1 &

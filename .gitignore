@@ -1,0 +1,10 @@
+roco_dff/
+roco-dataset/
+wn-domains-3.2
+WordNet-2.0
+*.zip
+*.tar.gz
+*.png
+*.jpg
+*.drawio
+*.tar

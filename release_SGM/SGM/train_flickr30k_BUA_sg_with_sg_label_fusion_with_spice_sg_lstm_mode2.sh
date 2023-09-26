@@ -1,0 +1,26 @@
+nohup python -u train.py \
+--data_path ../dataset/Flickr30k \
+--data_name flickr30k_split \
+--vocab_path ./vocab/ \
+--num_epochs 30 \
+--batch_size 200 \
+--gcn_num_layers 1 \
+--activation tanh \
+--learning_rate 0.0002 \
+--lr_update 15 \
+--workers 8 \
+--logger_name ./runs/flickr30k_BUA_sg_with_sg_label_fusion_with_spice_sg_lstm_mode2 \
+--model_name ./runs/flickr30k_BUA_sg_with_sg_label_fusion_with_spice_sg_lstm_mode2 \
+--max_violation \
+--img_dim 2048 \
+--no_imgnorm \
+--cross_attn t2i \
+--bi_gru \
+--grad_clip 2 \
+--predicate_score_rate 1.0 \
+--sg_file_name _image_sg_by_NeuralMotifs_36_25.json \
+--feature_name BUA \
+--caption_data_file_name _caps_with_rel.json \
+--alpha 1.0 \
+--fusion_activation tanh \
+--fusion_method concatenate > flickr30k_BUA_sg_with_sg_label_fusion_with_spice_sg_lstm_mode2.log 2>&1 &
